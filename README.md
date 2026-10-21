@@ -28,18 +28,17 @@ In early 2026, WTI crude oil surged from ~$64/barrel in February to a peak of ~$
 
 ## Key Findings
 
-**Oil-to-Fuel Passthrough (ARDL, levels):**
+**Full Passthrough Summary:**
 
-| Fuel Grade | Short-Run (per $10) | Long-Run (per $10) | R² |
-|------------|--------------------|--------------------|-----|
-| Midgrade   | 15¢                | 33¢                | 98.3% |
-| Premium    | 15¢                | 36¢                | 98.5% |
-| Diesel     | 18¢                | 49¢                | 98.7% |
-
-**Oil-to-CPI Passthrough (ARDL, log-differenced):**
-- Short-run: 0.0144% per 1% oil increase
-- Long-run: 0.0230% per 1% oil increase
-- A 10% oil shock → ~0.23% CPI increase long-run
+| Relationship | Model | Short-Run | Long-Run | R² |
+|---|---|---|---|---|
+| Oil → Midgrade | ARDL (levels) | $0.015 / $1 | $0.033 / $1 | 98.3% |
+| Oil → Premium | ARDL (levels) | $0.015 / $1 | $0.036 / $1 | 98.5% |
+| Oil → Diesel | ARDL (levels) | $0.018 / $1 | $0.049 / $1 | 98.7% |
+| Midgrade → CPI | ARDL (log-diff) | 0.039% / 1% | 0.042% / 1% | 36.5% |
+| Premium → CPI | ARDL (log-diff) | 0.041% / 1% | 0.044% / 1% | 36.8% |
+| Diesel → CPI | ARDL (log-diff) | 0.039% / 1% | 0.045% / 1% | 29.2% |
+| Oil → CPI | ARDL (log-diff) | 0.014% / 1% | 0.023% / 1% | 27.0% |
 
 **2026 Iran Conflict Validation:**
 - 59% oil price increase → model-predicted +1.4% CPI
