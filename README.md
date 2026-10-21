@@ -28,7 +28,15 @@ In early 2026, WTI crude oil surged from ~$64/barrel in February to a peak of ~$
 
 ## Key Findings
 
-**Full Passthrough Summary:**
+**Oil-to-Fuel Passthrough (ARDL, levels):**
+
+| Fuel Grade | Short-Run (per $10) | Long-Run (per $10) | R² |
+|------------|--------------------|--------------------|-----|
+| Midgrade   | 15¢                | 33¢                | 98.3% |
+| Premium    | 15¢                | 36¢                | 98.5% |
+| Diesel     | 18¢                | 49¢                | 98.7% |
+
+**Full Passthrough Summary (all relationships):**
 
 | Relationship | Model | Short-Run | Long-Run | R² |
 |---|---|---|---|---|
