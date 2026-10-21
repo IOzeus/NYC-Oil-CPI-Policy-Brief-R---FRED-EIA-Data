@@ -36,6 +36,16 @@ In early 2026, WTI crude oil surged from ~$64/barrel in February to a peak of ~$
 | Premium    | 15¢                | 36¢                | 98.5% |
 | Diesel     | 18¢                | 49¢                | 98.7% |
 
+**2026 Iran Conflict Validation:**
+- 59% oil price increase → model-predicted +1.4% CPI
+- Actual CPI change over same period: +2.3% (model captures a meaningful share; remainder attributable to broader supply chain disruption)
+
+**VECM / IRF / FEVD:**
+- Oil weakly exogenous to the long-run relationships (midgrade adjusts, oil does not)
+- Oil shock lifts midgrade ~5% at peak (months 1–3), remaining elevated over 24-month horizon
+- Oil accounts for ~43% of CPI forecast error variance from month 6 onward
+- Diesel identified as the key leading indicator for NYC freight and transit cost pressures given its highest long-run passthrough
+
 **Full Passthrough Summary (all relationships):**
 
 | Relationship | Model | Short-Run | Long-Run | R² |
@@ -47,16 +57,6 @@ In early 2026, WTI crude oil surged from ~$64/barrel in February to a peak of ~$
 | Premium → CPI | ARDL (log-diff) | 0.041% / 1% | 0.044% / 1% | 36.8% |
 | Diesel → CPI | ARDL (log-diff) | 0.039% / 1% | 0.045% / 1% | 29.2% |
 | Oil → CPI | ARDL (log-diff) | 0.014% / 1% | 0.023% / 1% | 27.0% |
-
-**2026 Iran Conflict Validation:**
-- 59% oil price increase → model-predicted +1.4% CPI
-- Actual CPI change over same period: +2.3% (model captures a meaningful share; remainder attributable to broader supply chain disruption)
-
-**VECM / IRF / FEVD:**
-- Oil weakly exogenous to the long-run relationships (midgrade adjusts, oil does not)
-- Oil shock lifts midgrade ~5% at peak (months 1–3), remaining elevated over 24-month horizon
-- Oil accounts for ~43% of CPI forecast error variance from month 6 onward
-- Diesel identified as the key leading indicator for NYC freight and transit cost pressures given its highest long-run passthrough
 
 ## Limitations
 
